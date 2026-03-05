@@ -1,0 +1,22 @@
+extraction:
+  date: "2026-03-05"
+  project: "sockshop-shipping"
+  source:
+    repository: "https://github.com/ulsystems/sockshop-shipping"
+    branch: "master"
+    commit: "9c0fbfa"
+  external_sources:
+    - "https://github.com/ulsystems/sockshop-orders"
+    - "https://github.com/ulsystems/sockshop-queue-master"
+  stats:
+    entities_count: 2
+    glossary_terms_count: 19
+    domains_count: 1
+  files:
+    - path: "index.md"
+      type: "index"
+    - path: "glossary.md"
+      type: "glossary"
+    - path: "domains/shipping.md"
+      type: "domain"
+      domain: "shipping"
